@@ -10,7 +10,7 @@ Source: WHO [World Health Organization](https://www.who.int/health-topics/corona
 
 This project is to calculate all the words in the papers as abstract, body text.
 
-1. Download dataset articles in [Semantics Scholar](https://pages.semanticscholar.org/coronavirus-research)
+1. Download dataset articles in [COVID-19 Open Research Dataset](https://pages.semanticscholar.org/coronavirus-research)
 
     The most important dataset is `Non-commercial use subset` includes PMC Content - 2350 full text
 
@@ -53,3 +53,9 @@ This project is to calculate all the words in the papers as abstract, body text.
     75%                                          NaN      NaN                                                NaN            234.750000       4983.000000
     max                                          NaN      NaN                                                NaN           2805.000000     241076.000000
     ```
+
+### Credits
+
+- COVID-19 Open Research Dataset [Semantics Scholar](https://pages.semanticscholar.org/coronavirus-research)
+
+- Thanks to [Ivan Ega Pratama](https://github.com/gpratama) for the code for extract as abstract and body text. [Source code](https://www.kaggle.com/ivanegapratama/covid-eda-initial-exploration-tool)
