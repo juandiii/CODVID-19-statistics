@@ -2,7 +2,7 @@ from FileReader import FileReader
 import glob
 
 
-class Proccesing:
+class Processing:
     def __init__(self, params):
         self.dict_ = {'paper_id': [], 'abstract': [], 'body_text': []}
         self.root_path = params['root_path']
