@@ -40,18 +40,18 @@ This project is to calculate all the words in the papers as abstract, body text.
     Processing index: 1645 of 2350
     Processing index: 1880 of 2350
     Processing index: 2115 of 2350
-                                            paper_id abstract                                          body_text  abstract_count_words  body_count_words
-    count                                       2350     2350                                               2350           2350.000000       2350.000000
-    unique                                      2350     1573                                               2215                   NaN               NaN
-    top     1694b4f8e456f966ff1fe215161bae59e59148df           Coronaviruses are a group of enveloped viruses...                   NaN               NaN
-    freq                                           1      646                                                  3                   NaN               NaN
-    mean                                         NaN      NaN                                                NaN            153.529362       4139.938298
-    std                                          NaN      NaN                                                NaN            144.923875       7583.474619
-    min                                          NaN      NaN                                                NaN              0.000000          1.000000
-    25%                                          NaN      NaN                                                NaN              0.000000       1990.250000
-    50%                                          NaN      NaN                                                NaN            157.000000       3127.000000
-    75%                                          NaN      NaN                                                NaN            234.750000       4983.000000
-    max                                          NaN      NaN                                                NaN           2805.000000     241076.000000
+        title                                  paper_id abstract                                          body_text  abstract_count_words  body_count_words  count_chars_abstract  count_chars_body_text
+    count   2350                                      2350     2350                                               2350           2350.000000       2350.000000                2350.0                 2350.0
+    unique  1863                                      2350     1573                                               2215                   NaN               NaN                   NaN                    NaN
+    top           8318896fad2acf22ac94d15d6d571dd2f7cf121d           Coronaviruses are a group of enveloped viruses...                   NaN               NaN                   NaN                    NaN
+    freq     268                                         1      646                                                  3                   NaN               NaN                   NaN                    NaN
+    mean     NaN                                       NaN      NaN                                                NaN            153.529362       4139.938298             2476905.0             63183794.0
+    std      NaN                                       NaN      NaN                                                NaN            144.923875       7583.474619                   0.0                    0.0
+    min      NaN                                       NaN      NaN                                                NaN              0.000000          1.000000             2476905.0             63183794.0
+    25%      NaN                                       NaN      NaN                                                NaN              0.000000       1990.250000             2476905.0             63183794.0
+    50%      NaN                                       NaN      NaN                                                NaN            157.000000       3127.000000             2476905.0             63183794.0
+    75%      NaN                                       NaN      NaN                                                NaN            234.750000       4983.000000             2476905.0             63183794.0
+    max      NaN                                       NaN      NaN                                                NaN           2805.000000     241076.000000             2476905.0             63183794.0
     ```
 
 ### Credits

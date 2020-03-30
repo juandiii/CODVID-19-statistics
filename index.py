@@ -16,6 +16,13 @@ def main(is_print=False):
     if is_print is True:
         print(stats.df_covid.describe(include='all'))
 
+    count = 0
+    for x in processing_.dict_['title']:
+        if x is "":
+            count += 1
+
+    print("\n\n\n\nQuantity of title is empty: {}".format(count))
+
     return stats
 
 

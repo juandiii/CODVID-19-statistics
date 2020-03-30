@@ -11,3 +11,16 @@ class Analyze:
             lambda x: len(x.strip().split()))
         self.df_covid['body_count_words'] = self.df_covid['body_text'].apply(
             lambda x: len(x.strip().split()))
+
+        countCharsAbstract = 0
+        for idx, value in enumerate(self.df_covid['abstract']):
+            for chars in value:
+                countCharsAbstract += 1
+
+        countCharsBodyText = 0
+        for idx, value in enumerate(self.df_covid['body_text']):
+            for chars in value:
+                countCharsBodyText += 1
+
+        self.df_covid['count_chars_abstract'] = countCharsAbstract
+        self.df_covid['count_chars_body_text'] = countCharsBodyText
