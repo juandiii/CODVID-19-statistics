@@ -5,6 +5,7 @@ class FileReader:
     def __init__(self, self_path):
         with open(self_path) as file:
             content = json.load(file)
+            self.title = content['metadata']['title']
             self.paper_id = content['paper_id']
             self.abstract = []
             self.body_text = []

@@ -10,8 +10,8 @@ root_path = '/Users/juandiii/development/python/proyecto_final_mineria'
 def main(is_print=False):
     params = {'root_path': root_path}
     processing_ = Processing(params)
-    stats = Analyze(processing_.dict_, columns=[
-        'paper_id', 'abstract', 'body_text'])
+    stats = Analyze(processing_.dict_, columns=['title',
+                                                'paper_id', 'abstract', 'body_text'])
 
     if is_print is True:
         print(stats.df_covid.describe(include='all'))
