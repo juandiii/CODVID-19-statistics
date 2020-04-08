@@ -1,7 +1,12 @@
 noncomm_use_subset/
+prep_json/
+*.gensim
+*.gensim.*
+*.pkl
 all_sources_metadata_2020-03-13.readme
 .DS_STORE
 metadata.csv
+display.html
 # Created by https://www.gitignore.io/api/code,python
 # Edit at https://www.gitignore.io/?templates=code,python
 
